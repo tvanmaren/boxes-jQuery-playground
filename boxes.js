@@ -66,7 +66,7 @@ $( document ).ready(function() {
 //     console.log(lastBox);
 // });
 
-// Create a variable to store the first two divs in the second row. Then, remove all styling from the divs.
+// Create a variable to store the first two divs in the second row (Hint: there's a jQuery traversal method that makes this 'easy'). Then, remove all styling from these two divs.
 
 // $( document ).ready(function() {
 //         var divs = $('#row2 div');
@@ -85,7 +85,6 @@ $( document ).ready(function() {
 //   $('.box').not('#secretBox').width('2px');
 //    console.log($('.box').not('#secretBox').css("width") === '2px');
 // });
-
 
 
 

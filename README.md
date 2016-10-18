@@ -14,7 +14,7 @@ Go to the [MDN docs for selectors](https://developer.mozilla.org/en-US/docs/Web/
 2. Change all red boxes to white.
 3. Find all child divs of the first row. Print to the console the number of items returned from this query, and set the class for each div to boxType3. Then, check to make sure that the class was successfully added.
 4. Make the last box in the last row disappear. (Hint, look into the display style). Log to the console what is returned from your query selector. Can you explain what is returned?
-5. Get the first two divs in the second row.  Take away all styling from the divs.
+5. Create a variable to store the first two divs in the second row (Hint: there's a jQuery traversal method that makes this 'easy'). Then, remove all styling from these two divs.
 6. Get all divs inside the container that are not row divs and are not the secret box div.  Set the width of the divs to 2 pixels. Then, log to the console a boolean that confirms that the width was correctly applied.
 
 ### Stretch Exercises
@@ -24,3 +24,11 @@ Go to the [MDN docs for selectors](https://developer.mozilla.org/en-US/docs/Web/
 1. 7. Using the toggle() method, make the document body disappear. Add one line of code to make it reappear. Can you explain how this works? Then, make the body toggle out quickly and then back into view slowly by adding arguments to the toggle methods.
 
 1. Apply some kind of animation to the secretBox. The animation should take two seconds to complete, and once it has finished, the only element the user should see is an h1 element with the text "Animation complete!".
+
+### Play!
+
+All finished with the exercises? Take some time to play!
+
+Look through the various methods on the [Intro to jQuery Learn page](https://learn.galvanize.com/content/gSchool/browser-dom-curriculum/master/jQuery/README.md), and in the jQuery [manipulation](http://api.jquery.com/category/manipulation/), [selectors](http://api.jquery.com/category/selectors/), and [traversal](http://api.jquery.com/category/traversing/) docs.
+
+Create hypotheses about what these various methods return or do, and test them. Document and consider sharing some of your findings with your instructors and classmates.
