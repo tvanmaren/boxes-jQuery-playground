@@ -10,7 +10,11 @@ First, we'll need to ready the document. Reference [this page](https://learn.jqu
 
 ### Exercises
 
-Go to the [MDN docs for selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors).  Read through the docs to get an idea of how selectors work.  Next, look at the [jQuery page on selectors](https://learn.jquery.com/using-jquery-core/selecting-elements/).
+While completing the following exercises, utilize the following:
+* [Intro to jQuery Learn page](https://learn.galvanize.com/content/gSchool/browser-dom-curriculum/master/jQuery/README.md)
+* jQuery [manipulation](http://api.jquery.com/category/manipulation/)
+* jQuery  [selectors](http://api.jquery.com/category/selectors/)
+* jQuery [traversal](http://api.jquery.com/category/traversing/)
 
 1. Select the secretBox on the page (There is more than one way to select this element. Challenge yourself to use a couple different methods!). Set its background color to white.  Add to it an h1 tag with the text, "secret box!"
 
