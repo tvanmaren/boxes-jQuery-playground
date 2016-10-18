@@ -33,51 +33,57 @@ $( document ).ready(function() {
     // secretBox.css('background-color', 'white').html("<h1>secret box!</h1>");
 });
 
-// Find all child divs of the first row. Print to the console the number of items returned from this query, and set the class for each div to boxType3. Then, check to make sure that the class was successfully added.
-
-$( document ).ready(function() {
-
-    //shorthand
-    //$("#row1").children().addClass('boxType3');
-
-    //longhand
-    var firstRow = $("#row1");
-    var kiddos = firstRow.children();
-    console.log(kiddos.length);
-    kiddos.addClass('boxType3');
-
-    for (var i = 0; i < kiddos.length; i++){
-      console.log(kiddos[i].className);
-    }
-
-});
-
-// Make the last box in the last row disappear. (Hint, look into the display style. Also, you should only get back one element from your selector.).
-
-// $( document ).ready(function() {
-//     var lastBox = $("#row4").children().last();
-//     lastBox.css('display', 'none');
-// });
-
-
 // Change all red boxes to white.
 
 // $( document ).ready(function() {
 //     $('.boxType1').css('background-color', 'white');
 // });
 
-// Get the first two divs in the second row. Take away all styling from the divs.
-//help students by reminding them to check what the selector returns. If it's an array, what array methods can they use on the collection of returned divs? Next, ask them how styles are applied to these divs (classes).
+// Find all child divs of the first row. Print to the console the number of items returned from this query, and set the class for each div to boxType3. Then, check to make sure that the class was successfully added.
 
 // $( document ).ready(function() {
-//     $('#row2 div').slice(0,2).removeClass();
+//
+//     //shorthand
+//     //$("#row1").children().addClass('boxType3');
+//
+//     //longhand
+//     var firstRow = $("#row1");
+//     var kiddos = firstRow.children();
+//     console.log(kiddos.length);
+//     kiddos.addClass('boxType3');
+//
+//     for (var i = 0; i < kiddos.length; i++){
+//       console.log(kiddos[i].className);
+//     }
+//
+// });
+
+// Make the last box in the last row disappear. (Hint, look into the display style). Log to the console what is returned from your query selector. Can you explain what is returned?
+
+// $( document ).ready(function() {
+//     var lastBox = $("#row4").children().last();
+//     lastBox.css('display', 'none');
+//     console.log(lastBox);
+// });
+
+// Create a variable to store the first two divs in the second row. Then, remove all styling from the divs.
+
+// $( document ).ready(function() {
+//         var divs = $('#row2 div');
+//         console.log(divs);
+//         var firstTwo = divs.slice(0,2);
+//         console.log(firstTwo);
+//         firstTwo.removeClass();
+// //     $('#row2 div').slice(0,2).removeClass();
+//
 // });
 
 
-// Get all divs inside the container that are not row divs and are not the secret box div. Set the width of the divs to 2 pixels.
+// Get all divs inside the container that are not row divs and are not the secret box div. Set the width of the divs to 2 pixels. Then, log to the console a boolean that confirms that the width was correctly applied.
 
 // $( document ).ready(function() {
 //   $('.box').not('#secretBox').width('2px');
+//    console.log($('.box').not('#secretBox').css("width") === '2px');
 // });
 
 
