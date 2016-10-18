@@ -38,11 +38,11 @@ Go to the [MDN docs for selectors](https://developer.mozilla.org/en-US/docs/Web/
 
 13. Apply an animation to the secretBox. The animation should take two seconds to complete, and once it has finished, the only element the user should see in the browser window is a nicely centered h1 element with the text "Animation complete!".
 
-###Refactor!
+###Refactor
 
 If you have time, modularize and abstract the code you've written above by creating functions with customizable parameters.
 
-### Play!
+### Play :)
 
 All finished with the above exercises? Take some time to play with jQuery methods that you didn't use for the exercises above!
 
