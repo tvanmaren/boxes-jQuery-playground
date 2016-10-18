@@ -6,7 +6,7 @@ Each exercise below is meant to function independently of the previous exercise.
 
 ### DOM Ready
 
-Reference [this page](https://learn.jquery.com/using-jquery-core/document-ready/). Use three different methods to ready the document for querying, alerting the user with the message, "Ready for DOM manipulation!"
+First, we'll need to ready the document. Reference [this page](https://learn.jquery.com/using-jquery-core/document-ready/), and try a couple different methods for readying the document.
 
 ### Exercises
 
@@ -44,7 +44,7 @@ If you have time, modularize and abstract the code you've written above by creat
 
 ### Play :)
 
-All finished with the above exercises? Take some time to play with jQuery methods that you didn't use for the exercises above!
+All finished with the above exercises? Take some time to play and experiment with any jQuery methods that you didn't use for the exercises above.
 
 Look through the various methods on the [Intro to jQuery Learn page](https://learn.galvanize.com/content/gSchool/browser-dom-curriculum/master/jQuery/README.md), jQuery [manipulation](http://api.jquery.com/category/manipulation/), jQuery  [selectors](http://api.jquery.com/category/selectors/), and jQuery [traversal](http://api.jquery.com/category/traversing/) docs.
 
