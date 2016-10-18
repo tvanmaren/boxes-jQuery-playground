@@ -86,42 +86,118 @@ $( document ).ready(function() {
 //    console.log($('.box').not('#secretBox').css("width") === '2px');
 // });
 
+//Using the toggle() method, make the document body disappear. Can you explain how this works? Then, make the body toggle out quickly and then back into view slowly by adding arguments to the toggle method.
+$( document ).ready(function() {
+  //$( "body" ).toggle();
+
+  // $( "body" ).toggle('fast');
+  // $( "body" ).toggle('slow');
+});
+
+//On document ready, make the third div in each row invisible (this is different than display: none).
+
+$( document ).ready(function(){
+  // var rows = $(".row");
+  // $.each(rows, function(i){
+  //   var row = $(rows[i]);
+  //   var thirdChild = $(row.children()[2]);
+  //   console.log(thirdChild);
+  //   thirdChild.css('visibility', 'hidden');
+  // });
+});
+
+//Create a copy of the first row. Attach it to the bottom of the grid (it should the last child in the container div). Confirm that this was successful by logging to the console the number of divs with a class of 'box' (result should be 20). Then, create a function "addRows" with two parameters: one that specifies which row to clone, and one that determines the number of cloned rows to add. (Challenge: How could you make this function even more "customizable"?)
+
+// $( document ).ready(function(){
+//   addRows(1, 3);
+// });
+//
+// var addRows = function(r, n){
+//   var count = n;
+//   var row = "#row" + String(r);
+//   console.log(row);
+//   while (count > 0) {
+//     $( row ).clone().appendTo( "#container" );
+//     count--;
+//   }
+// };
 
 
-// ****** EXTRA TASKS ********
+//Delete each box that has a class of boxType1 and is the 1st box in its row.
+
+$( document ).ready(function(){
+  // var firstChildren = $('.box:first-child');
+  // $.each(firstChildren, function(i){
+  //   var kid = firstChildren.eq(i);
+  //   console.log(kid.hasClass('boxType1'));
+  //   if (kid.hasClass('boxType1')) {
+  //     kid.remove();
+  //   }
+  // });
+});
+
+//Label each of the boxes in numerical order
+
+$( document ).ready(function(){
+  // var boxes = $('.box');
+  // var count = 1;
+  // $.each(boxes, function(i){
+  //   var box = boxes.eq(i);
+  //   console.log(box.text(count));
+  //   count++;
+  // });
+});
 
 
-//***Find all divs that have a parent div with a class of "row". Console.log() the boolean "true" if the div has a class of "boxType1", and "false" if the div has a class of "boxType2" or "boxType2".
+//Store in a variable all divs that have a parent div with a class of "row".
+//For each of these returned divs, console.log() the boolean "true" if the div has a class of "boxType1", and "false" if the div has a class of "boxType2" or "boxType3".
+
   $( document ).ready(function() {
-    //console.log($( "#container" ).children().size());
+    // var childrenOfRows = $('.row').children();
+    //console.log(childrenOfRows);
+
+    // $.each(childrenOfRows, function(i) {
+    //   var child = $(childrenOfRows[i]);
+    //   var childObj = childrenOfRows.eq(i);
+    //   console.log(child.hasClass('box'), childObj.hasClass('box'));
+
+
+      // if (child.hasClass('boxType1')) {
+      //   console.log('true');
+      // } else if (child.hasClass('boxType2') || child.hasClass('boxType3')) {
+      //   console.log('false');
+      // }
+    // });
+
+    // childrenOfRows.each(function(i){
+    //   var child = $(childrenOfRows[i]);
+    //   if (child.hasClass('boxType1')) {
+    //     console.log('true');
+    //   } else if (child.hasClass('boxType2') || child.hasClass('boxType3')) {
+    //     console.log('false');
+    //   }
+    // });
   });
 
 
-  //$( "li" ).has( "ul" ).css( "background-color", "red" );
 
-//Using the toggle() method, make the document body disappear. Add one line of code to make it reappear. Can you explain how this works? Then, make the body toggle out quickly and then back into view slowly by adding arguments to the toggle methods.
-// $( document ).ready(function() {
-//   $( "body" ).toggle('fast');
-//   $( "body" ).toggle('slow');
-// });
+//Apply an animation to the secretBox. The animation should take two seconds to complete, and once it has finished, the only element the user should see in the browser window is a nicely centered h1 element with the text "Animation complete!".
 
-//***On page load, make divs with a class of boxType1 invisible (different than display: none).Make divs with a class of boxType2 fade out one second after the document is read. Make the boxType1 divs fade into view immediately following the boxType2 fadeout (use 'complete' function).
+$( document ).ready(function() {
 
+  // $( "#secretBox" ).animate({
+  //   opacity: 0.25,
+  //   left: "+=100",
+  //   height: "toggle"
+  // }, 2000, function() {
+  //   console.log("woo woo");
+  //   // remove the #container div
+  //   $('#container').remove();
+  //   // create and append an h1 to the body
+  //   var completeMessage = '<h1>Animation complete!</h1>';
+  //   $('body').append(completeMessage);
+  //   // center the h1
+  //   $('h1').css('textAlign', 'center').css('margin-top', '300px');
+  // });
 
-
-//Apply some kind of animation to the secretBox. The animation should take two seconds to complete, and once it has finished, the only element the user should see is an h1 element with the text "Animation complete!".
-
-// $( document ).ready(function() {
-//   $('.box').not('#secretBox').width('2px');
-//
-//   $( "#secretBox" ).animate({
-//     opacity: 0.25,
-//     left: "+=100",
-//     height: "toggle"
-//   }, 2000, function() {
-//     //remove the #container div
-       // append an h1 to the body
-       //center the h1
-//   });
-//
-// });
+});
