@@ -1,10 +1,10 @@
 # jQuery Playground
 
-A grid of colorful boxes that can be used as a jQuery playground for learning selectors, events, etc.
+The html for this exercise renders a grid of colorful boxes that can be used as a jQuery playground for learning selectors, events, etc. Each of the exercises below is meant to function independently of previous exercises. In other words, after completing an exercise, comment it out before working on the next one!
 
 ### Exercise 1 - DOM Ready
 
-Reference [this page](https://learn.jquery.com/using-jquery-core/document-ready/). Add a callback function to ready that alerts a message saying, ready for DOM manipulation.  Try using both styles of callbacks.
+Reference [this page](https://learn.jquery.com/using-jquery-core/document-ready/). Use three different methods to ready the document for querying, alerting the user with the message, "Ready for DOM manipulation!"
 
 ### Exercise 2 - Selectors, CSS, Attributes
 
