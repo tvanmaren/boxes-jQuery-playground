@@ -2,21 +2,26 @@
 
 The html for this exercise renders a grid of colorful boxes that can be used as a playground for learning how to use jQuery.
 
-Each exercise below is meant to function independently of the previous exercise. In other words, after completing an exercise, comment it out before working on the next one!
+Each exercise below is meant to function independently of the previous exercise. In other words, after completing an exercise, comment it out before working on the next one.
 
 ### DOM Ready
 
-First, we'll need to ready the document. Reference [this page](https://learn.jquery.com/using-jquery-core/document-ready/), and try a couple different methods for readying the document.
+First, we'll need to get a few things set up. Start by adding the jQuery CDN to the head of your html:
+```
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+```
+
+Next, reference [the jQuery docs](https://learn.jquery.com/using-jquery-core/document-ready/) to learn about $(document).ready(), its purpose, and how to use it.
 
 ### Exercises
 
-While completing the following exercises, utilize the following:
+While completing the exercises listed below, refer to boxes.html and utilize the following resources:
 * [Intro to jQuery Learn page](https://learn.galvanize.com/content/gSchool/browser-dom-curriculum/master/jQuery/README.md)
 * jQuery [manipulation](http://api.jquery.com/category/manipulation/)
 * jQuery  [selectors](http://api.jquery.com/category/selectors/)
 * jQuery [traversal](http://api.jquery.com/category/traversing/)
 
-1. Select the secretBox on the page (There is more than one way to select this element. Challenge yourself to use a couple different methods!). Set its background color to white.  Add to it an h1 tag with the text, "secret box!"
+1. Select the secretBox (There is more than one way to select this element. Challenge yourself to use a couple different methods.). Set its background color to white.  Add to it an h1 tag with the text, "secret box!"
 
 2. Change all red boxes to white.
 
@@ -44,7 +49,7 @@ While completing the following exercises, utilize the following:
 
 ###Refactor
 
-If you have time, modularize and abstract the code you've written above by creating functions with customizable parameters.
+If you have time, modularize and abstract the code you've written by creating named functions with parameters.
 
 ### Play :)
 
@@ -52,4 +57,4 @@ All finished with the above exercises? Take some time to play and experiment wit
 
 Look through the various methods on the [Intro to jQuery Learn page](https://learn.galvanize.com/content/gSchool/browser-dom-curriculum/master/jQuery/README.md), jQuery [manipulation](http://api.jquery.com/category/manipulation/), jQuery  [selectors](http://api.jquery.com/category/selectors/), and jQuery [traversal](http://api.jquery.com/category/traversing/) docs.
 
-Create hypotheses about what these various methods return or do, and test them. For example: You might wonder at some point about the difference between the .get() and .eq() methods. Use your burgeoning doc-reading and code-testing skills to find an answer! Document your exploration, and be prepared to share some of your findings with your instructors and classmates at the end of the day.
+Ask questions, and then use the documentation to find answers. Create hypotheses about what these various methods return or do, and then test these hypotheses. For example: You might wonder at some point about the difference between the .get() and .eq() methods. Use your burgeoning doc-reading and code-testing skills to find an answer. Document your exploration, and be prepared to share some of your findings with your instructors and classmates at the end of the day.
