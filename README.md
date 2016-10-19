@@ -2,24 +2,25 @@
 
 The html for this exercise renders a grid of colorful boxes that can be used as a playground for learning how to use jQuery.
 
-Each exercise below is meant to function independently of the previous exercise. In other words, after completing an exercise, comment it out before working on the next one.
+Before you begin, read up until the "DOM Creation" heading in [Intro to jQuery Learn page](https://learn.galvanize.com/content/gSchool/browser-dom-curriculum/master/jQuery/README.md).
 
 ### DOM Ready
 
-First, we'll need to get a few things set up. Start by adding the jQuery CDN to the head of your html:
+Next, you'll need to get a few things set up. Start by adding the jQuery CDN to the head of your html:
 ```
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 ```
 
-Next, reference [the jQuery docs](https://learn.jquery.com/using-jquery-core/document-ready/) to learn about $(document).ready(), its purpose, and how to use it.
+Next, read through [this jQuery doc](https://learn.jquery.com/using-jquery-core/document-ready/) to learn about $(document).ready(), its purpose, and how to use it. After reading, can you explain the difference between $(document).ready() and $(window).load()?
 
 ### Exercises
 
-While completing the exercises listed below, refer to boxes.html and utilize the following resources:
-* [Intro to jQuery Learn page](https://learn.galvanize.com/content/gSchool/browser-dom-curriculum/master/jQuery/README.md)
-* jQuery [manipulation](http://api.jquery.com/category/manipulation/)
-* jQuery  [selectors](http://api.jquery.com/category/selectors/)
-* jQuery [traversal](http://api.jquery.com/category/traversing/)
+Now you're ready to play! While working through the exercises listed below, refer to boxes.html for id and class names, and utilize the following documentation in addition to the Intro to jQuery Learn page:
+  * jQuery [manipulation](http://api.jquery.com/category/manipulation/)
+  * jQuery  [selectors](http://api.jquery.com/category/selectors/)
+  * jQuery [traversal](http://api.jquery.com/category/traversing/)
+
+NOTE: Each exercise below is meant to function independently of the previous exercise. In other words, after completing an exercise, comment it out before working on the next one.
 
 1. Select the secretBox (There is more than one way to select this element. Challenge yourself to use a couple different methods.). Set its background color to white.  Add to it an h1 tag with the text, "secret box!"
 
